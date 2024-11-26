@@ -27,46 +27,77 @@ section {
 
 /* Time */
 .time {
-  
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
 }
 
 .hours {
+  font-size: 3em;
+  margin: 0;
 }
 
 .minutes {
+  font-size: 3em;
+  margin: 0;
 }
 
 .seconds {
+  font-size: 3em;
+  margin: 0;
 }
 
 .amOrPM {
+  font-size: 1em;
+  margin: 0;
   
 }
 
 /* Date */
 .date {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
 }
 
 .month {
+  font-size: 2em;
+  margin: 0;
 }
 
+
 .dayOfMonth {
+  font-size: 2em;
+  margin: 0;
 }
 
 .year {
+  font-size: 2em;
+  margin: 0;
 }
 
 .dayOfWeek {
+  font-size: 2em;
+  margin: 0;
 }
 
 /* Weather */
 .weather {
   grid-column: 1 / -1;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
 }
 
 
