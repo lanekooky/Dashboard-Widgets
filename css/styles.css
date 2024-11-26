@@ -2,22 +2,33 @@
 .layout {
   /* Set your own grid   */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 400px;
-  grid-column-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  
+  /* Make the grid fill the whole page */
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Widgets */
 section {
-  background: rgba(211, 211, 211, 0.5);
+  background: rgba(14, 233, 167, 0.5);
   padding: 1em;
   
   /* Relative Parent. Absolute Child */
   position: relative;
 }
 
+
+
+  
+
+
 /* Time */
 .time {
+  
+  
 }
 
 .hours {
@@ -52,8 +63,12 @@ section {
 
 /* Weather */
 .weather {
-  
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .city {
   
